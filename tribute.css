@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+ .Seoul-img {
+    border-radius: 20%;
+}
+.Seoul-img2 {
+    border-radius: 20%;
+}
+.Seoul-img3 {
+    display: none;
+}
+.hover-btn:hover + .Seoul-img3 {
+    display: block;
+}
+.Seoul-img3 img {
+    transition: opacity 0.3s ease-in-out;
+}
+.hover-btn:hover + .Seoul-img3 img {
+    opacity: 1;
+}
