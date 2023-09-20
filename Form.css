@@ -1,0 +1,23 @@
+fieldset {
+    border: 2px solid black;
+    padding: 20px;
+    width: 400px;
+}
+.fieldset {
+    display: flex;
+    justify-content: space-between;
+}
+.form-element {
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+}
+.button {
+    text-align: center;
+}
+.button input[type="submit"] {
+    display: inline-block;
+    margin: 0 auto;
+}
