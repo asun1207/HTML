@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'OAGothic-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20%;
+}
+main {
+    margin-bottom: 30%;
+}
+body {
+    font-family: 'OAGothic-ExtraBold';
+    text-align: center;
+}
+.logo-sun {
+    float: left;
+    margin-right: 20px;
+    width: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'OAGothic-ExtraBold';
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-family: 'OAGothic-ExtraBold';
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+.p-Sun {
+    font-size: 50px;
+    font-weight: bold;
+}
+.p-You{
+    font-size: 16px;
+}
+.p-My {
+    font-size: 16px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+/* 이미지 그리드 스타일 */
+.image-grid {
+        position: static;
+        display: grid;
+        height: auto;
+        width: 100%;
+        min-height: 1724px;
+        margin-top: -85px;
+        grid-template-rows: repeat(5, min-content) 1fr;
+        grid-template-columns: 100%;
+        padding-bottom: 0px;
+        box-sizing: border-box;
+        align-content: normal;
+        justify-content: normal;
+        align-items: normal;
+        justify-items: normal;
+}
+
+/* 이미지 컨테이너 스타일 */
+.image-container {
+    position: relative;
+    min-width: calc(50% - 10px); /* 그리드 아이템 최소 너비 설정 (조절 가능) */
+}
+/* 이미지 스택 스타일 */
+.image-stack {
+    position: relative;
+}
+
+/* 뒷배경 이미지 스타일 */
+.back {
+    width: 100%; /* 이미지 너비 100%로 설정 */
+    height: auto; /* 이미지 높이 자동으로 조절 */
+}
+
+/* 앞에 겹쳐질 이미지 스타일 */
+.front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* 이미지 너비 100%로 설정 */
+    height: auto; /* 이미지 높이 자동으로 조절 */
+}
+footer {
+    display: flex;
+}
+.moveTopBtn {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    background: #000;
+    color: #fff;
+   }
