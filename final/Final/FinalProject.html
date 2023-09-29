@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+    <script src="https://kit.fontawesome.com/dff272d20f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a href="./FinalProject.html">
+          <div class="logo">
+            <img src="https://raw.githubusercontent.com/asun1207/HTML/main/final/SL-071322-51620-26.jpg" alt="logo_laurel" />
+          </div>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="./aboutus.html">About Us</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./customerreviews.html">Customer Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="login-signup">
+          <div class="login"><a href="#loginForm">Log In</a></div>
+          <div class="signup" id="signupform"><a href="#signupform">Sign Up</a></div>
+        </div>
+      </div>
+    </header>
+    <div class="form-container" id="loginForm">
+      <h2>Log In</h2>
+      <form>
+        <label for="loginEmail">Email:</label>
+        <input type="email" id="loginEmail" name="loginEmail" required />
+
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" name="loginPassword" required />
+
+        <button type="submit">Log In</button>
+      </form>
+      <div class="form-container" id="signupForm">
+        <h2>Sign Up</h2>
+        <form>
+          <label for="signupEmail">Email:</label>
+          <input type="email" id="signupEmail" name="signupEmail" required />
+
+          <label for="signupPassword">Password:</label>
+          <input type="password" id="signupPassword" name="signupPassword" required />
+
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" required />
+
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" />
+
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+    <main class="main">
+      <div class="main-container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, vel? Quia et quaerat vero vel in inventore laudantium veniam repudiandae quidem repellendus, reprehenderit magnam esse sed corrupti dolor, velit facere!</p>
+        <h1>We're waiting for you</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ducimus voluptates soluta, a excepturi inventore qui eligendi, vel adipisci earum fuga fugit accusantium. Illum, ipsa! Ab dolores architecto ex harum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur, a earum numquam blanditiis cupiditate non quisquam. Atque aliquam cumque, soluta impedit qui vero in necessitatibus quisquam quas libero asperiores!</p>
+        <h2>Lorem</h2>
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/g6vJBMampfg?si=ZXS3fd8Z6YBQF8Mf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </main>
+    <footer id="contact">
+      <div class="footer-menu">
+        <div class="footer-item">
+          <h3>Products</h3>
+          <p>Men's</p>
+          <p>Women's</p>
+          <p>Kids'</p>
+        </div>
+        <div class="footer-item">
+          <h3>Contact Us</h3>
+          <p>Help Center</p>
+          <p>Order Status</p>
+          <p>Size Chart</p>
+          <p>Returns & Warranty</p>
+        </div>
+        <div class="footer-item">
+          <h3>About Us</h3>
+          <p>Sustainability</p>
+          <p>Technology & Innovation</p>
+          <p>Explore our Stories</p>
+          <p>Careers</p>
+        </div>
+        <div class="footer-item">
+          <h3>Customer Reviews</h3>
+          <p>Women's Rain Jackets</p>
+          <p>Men's Rain Jackets</p>
+          <p>Women's Trail Running Shoes</p>
+          <p>Men's Trail Running Shoes</p>
+        </div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-info">
+          <p>Ⓒ Laurel, A Kind Of Company</p>
+        </div>
+        <div class="fav">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    document.getElementById("signupLink").addEventListener("click", function () {
+      document.getElementById("signupForm").style.display = "block";
+    });
+  </script>
+</html>
